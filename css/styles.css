@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(to top left, #97CFE6, #7472D6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+#profile-pic {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#gallery {
+  display: grid;
+  width: 100%;
+  max-width: 600px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#gallery > img {
+  width: 100%;
+}
